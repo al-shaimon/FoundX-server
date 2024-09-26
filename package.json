@@ -18,7 +18,7 @@
     "handlebars": "^4.7.8",
     "http-status": "^1.7.4",
     "jsonwebtoken": "^9.0.2",
-    "meilisearch": "^0.41.0",
+    "meilisearch": "^0.42.0",
     "mongoose": "^8.4.0",
     "multer": "^1.4.5-lts.1",
     "multer-storage-cloudinary": "^4.0.0",
@@ -39,5 +39,8 @@
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.10.0"
-  }
+  },
+  "trustedDependencies": [
+    "core-js"
+  ]
 }
